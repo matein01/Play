@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section-container">
+        <div class="section-title">
+            <h1>
+                Piedra papel o tijera?
+            </h1>
+        </div>
+        <div class="section-content">
+            <div class="persona">
+                <div class="persona-content">
+                    <h2>
+                        Tu
+                    </h2>
+                    <div class="content-box">
+                        <figure id="paper" onclick="playPaper()">
+                            <img src="assets/img/paper.svg" alt="Paper">
+                        </figure>
+                    </div>
+                    <div class="content-box">
+                        <figure id="scissors" onclick="playScissors()">
+                            <img src="assets/img/scissors.svg" alt="Scissors">
+                        </figure>
+                    </div>
+                    <div class="content-box">
+                        <figure id="rock" onclick="playRock()">
+                            <img src="assets/img/rock.svg" alt="Rock">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="robot">
+                <div class="robot-content">
+                    <h2>
+                        Robot
+                    </h2>
+                    <div class="content-box">
+                        <figure>
+                            <img src="assets/img/robot.svg" alt="Robot">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/codeIf.js"></script>
+</body>
+</html>

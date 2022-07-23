@@ -1,0 +1,73 @@
+:root{
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Comic Neue', cursive;
+}
+
+body{
+    font-size: var(--sm);
+}
+
+.section-container {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+.section-title {
+    font-size: var(--lg);
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--md);
+    text-align: center;
+    width: 50%;
+}
+
+.content-box {
+    margin: 1.5rem;
+    background-color: burlywood;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+}
+
+.content-box img {
+    width: 9rem;
+    height: 9rem;
+    margin: 1rem;
+}
+
+.persona,
+.robot {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.persona h2,
+.robot h2 {
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .section-content{
+        width: 100%;
+    }
+}
